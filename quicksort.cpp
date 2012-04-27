@@ -1,9 +1,6 @@
-// Quicksort.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
-#include <stdlib.h>
-
+/*
+Dane testowe
+*/
 int A[] = {13, 19, 9, 5, 12, 8, 7, 4, 11, 2, 6, 21};
 
 int partition(int p, int r)
@@ -12,7 +9,7 @@ int partition(int p, int r)
     int j = r + 1;
     int x = A[p];
 
-    while(1)
+    while(true)
     {
         do
         {
