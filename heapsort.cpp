@@ -1,11 +1,6 @@
-// Heapsort.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
-
 int A[] = {0,1,3,2,4,5};
 int heapSize = sizeof(A)/sizeof(A[0]);
-
+  
 void heapify(int i)
 {
     int left_index = 2*i;
@@ -77,6 +72,7 @@ void insert(int v)
     A[i] = v;
 }
 
+#if 0
 int _tmain(int argc, _TCHAR* argv[])
 {
    // heapSort();
@@ -85,4 +81,4 @@ int _tmain(int argc, _TCHAR* argv[])
     heapSort();
 	return 0;
 }
-
+#endif

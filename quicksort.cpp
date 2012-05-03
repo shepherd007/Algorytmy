@@ -1,3 +1,5 @@
+#include <random>
+
 /*
 Dane testowe
 */
@@ -91,9 +93,11 @@ void randomizedQuicksort(int p, int r)
     }
 
 }
+
+#if 0
 int _tmain(int argc, _TCHAR* argv[])
 {
     quicksort(0,11);
 	return 0;
 }
-
+#endif

@@ -1,7 +1,6 @@
 // CountingSort.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include <iostream>
 
 int A[] = {13, 19, 9, 5, 12, 8, 7, 4, 11, 2, 6, 21};
@@ -95,10 +94,11 @@ int randomizedSelect(int p, int r, int i)
     }
 }
 
+#if 0
 int _tmain(int argc, _TCHAR* argv[])
 {
    // countingSort();
     int x = randomizedSelect(0,12,3);
 	return 0;
 }
-
+#endif
